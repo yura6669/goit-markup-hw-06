@@ -22,7 +22,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <!-- Header -->
@@ -49,6 +49,16 @@
             </li>
           </ul>
         </nav>
+        <button class="open-mobile-menu-btn">
+          <svg
+            class="open-mobile-menu-btn-icon"
+            width="24"
+            height="24"
+            aria-label="mobile-menu-open-icon"
+          >
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
 
         <!-- Contact us -->
         <address class="contacts">
@@ -142,6 +152,7 @@
           <ul class="team-list">
             <li class="team-item">
               <img
+                srcset="./images/mark-guerrero@2.jpg 2x"
                 src="./images/mark-guerrero.jpg"
                 alt="Mark Guerrero - Product Designer"
                 width="264"
@@ -201,6 +212,7 @@
             </li>
             <li class="team-item">
               <img
+                srcset="./images/tom-ford@2.jpg 2x"
                 src="./images/tom-ford.jpg"
                 alt="Tom Ford - Frontend Developer"
                 width="264"
@@ -260,6 +272,7 @@
             </li>
             <li class="team-item">
               <img
+                srcset="./images/camila-garcia@2.jpg 2x"
                 src="./images/camila-garcia.jpg"
                 alt="Camila Garcia - Marketing"
                 width="264"
@@ -319,6 +332,7 @@
             </li>
             <li class="team-item">
               <img
+                srcset="./images/daniel-wilson@2.jpg 2x"
                 src="./images/daniel-wilson.jpg"
                 alt="Daniel Wilson - UI Designer"
                 width="264"
@@ -388,7 +402,16 @@
             <li class="portfolio-item">
               <div class="porfilio-image-overlay">
                 <img
-                  src="./images/banking-app.jpg"
+                  srcset="
+                    ./images/banking-app-mobile.jpg   264w,
+                    ./images/banking-app-mobile@2.jpg 528w,
+                    ./images/banking-app-tablet.jpg   356w,
+                    ./images/banking-app-tablet.jpg   712w,
+                    ./images/banking-app-desktop.jpg  360w,
+                    ./images/banking-app-desktop.jpg  720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (min-width: 320px) 264px"
+                  src="./images/banking-app-desktop.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -408,7 +431,16 @@
             <li class="portfolio-item">
               <div class="porfilio-image-overlay">
                 <img
-                  src="./images/cashless-payment.jpg"
+                  srcset="
+                    ./images/cashless-payment-mobile.jpg   264w,
+                    ./images/cashless-payment-mobile@2.jpg 528w,
+                    ./images/cashless-payment-tablet.jpg   356w,
+                    ./images/cashless-payment-tablet.jpg   712w,
+                    ./images/cashless-payment-desktop.jpg  360w,
+                    ./images/cashless-payment-desktop.jpg  720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (min-width: 320px) 264px"
+                  src="./images/cashless-payment-desktop.jpg"
                   alt="Cashless Payment App"
                   width="360"
                   height="300"
@@ -428,7 +460,16 @@
             <li class="portfolio-item">
               <div class="porfilio-image-overlay">
                 <img
-                  src="./images/meditation-app.jpg"
+                  srcset="
+                    ./images/meditation-app-mobile.jpg   264w,
+                    ./images/meditation-app-mobile@2.jpg 528w,
+                    ./images/meditation-app-tablet.jpg   356w,
+                    ./images/meditation-app-tablet.jpg   712w,
+                    ./images/meditation-app-desktop.jpg  360w,
+                    ./images/meditation-app-desktop.jpg  720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (min-width: 320px) 264px"
+                  src="./images/meditation-app-desktop.jpg"
                   alt="Meditation App"
                   width="360"
                   height="300"
@@ -448,7 +489,16 @@
             <li class="portfolio-item">
               <div class="porfilio-image-overlay">
                 <img
-                  src="./images/taxi-service.jpg"
+                  srcset="
+                    ./images/taxi-service-mobile.jpg   264w,
+                    ./images/taxi-service-mobile@2.jpg 528w,
+                    ./images/taxi-service-tablet.jpg   356w,
+                    ./images/taxi-service-tablet.jpg   712w,
+                    ./images/taxi-service-desktop.jpg  360w,
+                    ./images/taxi-service-desktop.jpg  720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (min-width: 320px) 264px"
+                  src="./images/taxi-service-desktop.jpg"
                   alt="Taxi Service App"
                   width="360"
                   height="300"
@@ -468,7 +518,16 @@
             <li class="portfolio-item">
               <div class="porfilio-image-overlay">
                 <img
-                  src="./images/screen-illustrations.jpg"
+                  srcset="
+                    ./images/screen-illustrations-mobile.jpg   264w,
+                    ./images/screen-illustrations-mobile@2.jpg 528w,
+                    ./images/screen-illustrations-tablet.jpg   356w,
+                    ./images/screen-illustrations-tablet.jpg   712w,
+                    ./images/screen-illustrations-desktop.jpg  360w,
+                    ./images/screen-illustrations-desktop.jpg  720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (min-width: 320px) 264px"
+                  src="./images/screen-illustrations-desktop.jpg"
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
@@ -488,7 +547,16 @@
             <li class="portfolio-item">
               <div class="porfilio-image-overlay">
                 <img
-                  src="./images/online-courses.jpg"
+                  srcset="
+                    ./images/online-courses-mobile.jpg   264w,
+                    ./images/online-courses-mobile@2.jpg 528w,
+                    ./images/online-courses-tablet.jpg   356w,
+                    ./images/online-courses-tablet.jpg   712w,
+                    ./images/online-courses-desktop.jpg  360w,
+                    ./images/online-courses-desktop.jpg  720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (min-width: 320px) 264px"
+                  src="./images/online-courses-desktop.jpg"
                   alt="Online Courses"
                   width="360"
                   height="300"
@@ -687,6 +755,85 @@
           <button class="form-submit" type="submit">Send</button>
         </form>
       </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <button class="mobile-menu-close-btn">
+        <svg
+          class="mobile-menu-close-btn-icon"
+          width="8"
+          height="8"
+          aria-label="mobile menu close icon"
+        >
+          <use href="./images/icons.svg#icon-icon-close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu-navigation">
+        <ul class="mobile-menu-navigation-list">
+          <li class="mobile-menu-navigation-item">
+            <a
+              href=""
+              class="mobile-menu-navigation-item-link mobile-menu-navigation-item-link-active"
+            >
+              Studio
+            </a>
+          </li>
+          <li class="mobile-menu-navigation-item">
+            <a href="" class="mobile-menu-navigation-item-link"> Portfolio </a>
+          </li>
+          <li class="mobile-menu-navigation-item">
+            <a href="" class="mobile-menu-navigation-item-link"> Contacts </a>
+          </li>
+        </ul>
+      </nav>
+      <address class="mobile-menu-address">
+        <ul class="mobile-menu-address-list">
+          <li class="mobile-menu-address-item">
+            <a href="tel:+110001111111" class="mobile-menu-address-link">
+              +11 (000) 111-11-11
+            </a>
+          </li>
+          <li class="mobile-menu-address-item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="mobile-menu-address-link"
+            >
+              info@devstudio.com
+            </a>
+          </li>
+        </ul>
+      </address>
+      <ul class="mobile-menu-social-list">
+        <li class="mobile-menu-social-item">
+          <a href="" class="mobile-menu-social-link">
+            <svg class="mobile-menu-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-menu-social-item">
+          <a href="" class="mobile-menu-social-link">
+            <svg class="mobile-menu-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-menu-social-item">
+          <a href="" class="mobile-menu-social-link">
+            <svg class="mobile-menu-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-menu-social-item">
+          <a href="" class="mobile-menu-social-link">
+            <svg class="mobile-menu-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
